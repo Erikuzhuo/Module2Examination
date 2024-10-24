@@ -356,7 +356,7 @@ public class ContactsController {
 
         do {
             do {
-                System.out.println("Số Đt hặc tên cần tìm: ");
+                System.out.println("Số Đt cần tìm: ");
                 checkNumber = scanner.nextLine();
                 while (checkNumber.isEmpty() || !checkDataIsExist.checkNumberExist(listOfContact, checkNumber)) {
                     System.out.println("Invalid number. Please re-input. | Or input 0 to exit.");
